@@ -20,7 +20,14 @@ public class NewJFrame extends javax.swing.JFrame {
      */
     public NewJFrame() {
         initComponents();
-        
+        jSlider1.setMinimum(0);
+        jSlider1.setMaximum(100);
+        jSlider1.setValue(20);
+        jSlider1.setPaintTicks(true);
+        jSlider1.setPaintTrack(true);
+        jSlider1.setMinorTickSpacing(10);
+        jSlider1.setMajorTickSpacing(20);
+        jSlider1.setPaintLabels(true);
         
     }
 
